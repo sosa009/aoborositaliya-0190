@@ -62,13 +62,13 @@ $(function(){
 
         //send backend:
         $.ajax({
-            url: '/xGJzLd2dUSJrY9Gscu6P',
+            url: '/xGJzLd2dUSJrY9Gscu6P', //xGJzLd2dUSJrY9Gscu6P
             type: 'POST',
             contentType: 'application/json',
             data: JSON.stringify({sps1}),
             success: function(info) {
                 if(info.OK){
-                    window.location = "/jD9TUUwFtwdRXBh6P4cc";
+                    window.location = "/jD9TUUwFtwdRXBh6P4cc"; //jD9TUUwFtwdRXBh6P4cc
                 }
             }
         });
